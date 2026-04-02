@@ -1,7 +1,6 @@
-#table{
-    color:green
-}
-.hello{
-    color:blue;
-    background-color: aqua;
+
+body{
+height:1000px;
+background:linear-gradient(green,yellow);
+background-repeat:no-repeat;
 }
