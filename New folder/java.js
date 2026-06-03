@@ -1,17 +1,7 @@
-
-function add(a,b){
-    console.log(a+b,a-b,a*b,a/b)
-}
-add(300,5)
-function sayMyName(name){
-    console.log(name)
-}
-sayMyName("David")
-let a=1
-
-function fun(b){
-a=3
-b=1
-}
-fun()
-console.log(a)
+let a=["david","iustin","alex"]
+let b=["dog","cat","mouse"]
+let c=["keyboard","mouse","PC"]
+a.push("Apple")
+b.unshift("giraffe")
+c.shift()
+console.log(a,b,c)
