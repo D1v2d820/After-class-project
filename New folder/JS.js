@@ -1,14 +1,9 @@
-class Animals{
-    constructor(name,bark){
-        this.name=name
-        this.bark=bark
-    }
-    showname(){
-        console.log("this is the race",this.name,'this is how he barks at me',this.bark);
-        
-    }
+//let arr=[1,7,34,2,0,8,10,1298]
+//let arr1=arr.sort((a,b)=>a-b)
+//arr2=arr.reverse()
+//let arr3=arr.map((david)=>david*10)
+//console.log(arr3);
 
-}
-let dog= new Animals("Dalmation","Wof WOF!")
-dog.showname()
-
+let string=["mayank","david","demyd"]
+str=string.map((i)=>i+" how are you")
+console.log(str);
